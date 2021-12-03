@@ -49,6 +49,4 @@ data = open('input1203.txt')
 bi_list = str2list(data)
 gamma = gammaRate(bi_list)
 power_comsump = powerComsump(gamma)
-print(power_comsump)
-
-    
+print(power_comsump)  
