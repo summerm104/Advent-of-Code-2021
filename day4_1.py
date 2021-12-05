@@ -71,6 +71,3 @@ grid_boards = getGridBoards('input1204.txt')
 winner, fin_num = bingoWinner(random_nums, grid_boards)
 score = getScore(winner, fin_num)
 print(score)
-
-
-
