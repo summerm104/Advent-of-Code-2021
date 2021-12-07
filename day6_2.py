@@ -10,20 +10,6 @@ def fishDict(filename):
         fish_dict[timer] += 1
     return fish_dict
 
-# def countFish(fishes, days):
-#     current = fishes
-#     while days > 0:
-#         another_day = current.copy()
-#         for i in range(len(current)):
-#             if current[i] == 0:
-#                 another_day[i] = 6
-#                 another_day.append(8)
-#             else:
-#                 another_day[i] = current[i] - 1
-#         current = another_day.copy()
-#         days -= 1
-#     return current
-
 def countFish(fish_dict, days):
     current_fish = fish_dict.copy()
     multiply_period = 7
